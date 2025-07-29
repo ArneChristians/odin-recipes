@@ -3,48 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <title>Scrambled Eggs Recipe</title>
 </head>
 <body>
-    <h1>Scrambled Eggs Recipe</h1>
-    <!-- Navigation link to go back to the recipes index -->
-    <a href="../index.html">← Back to Recipes</a>
+    <div class="container">
+        <div id="header">
+            <h1>Scrambled Eggs Recipe</h1>
+        </div>
 
-    <!--Image of the Recipe-->
-    <p>
-        <img src="../images/scrambled_eggs.jpg" alt="Scrambled Eggs" style="width:300px;height:auto;">
-    </p>
-    
-    <!--Short description of the Recipe-->
-    <p>
-        <h2>Description</h2>
-        Learn how to make delicious scrambled eggs with this simple recipe.
-    </p>
+        <!-- Navigation link to go back to the recipes index -->
+        <a class="back_arrow" href="../index.html">← Test</a>
 
-    <!--Ingredients List-->
-    <p>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>2 eggs</li>
-            <li>Salt to taste</li>
-            <li>Butter or oil for cooking</li>
-            <li>Optional: milk or cream for creamier texture</li>
-        </ul>
-    </p>
-    
-    <!--Recipe Instructions-->
-    <p>
-        <h2>Steps</h2>
-        <ol>
-            <li>Crack the eggs into a bowl.</li>
-            <li>Add a pinch of salt and whisk until well combined.</li>
-            <li>Heat a non-stick skillet over medium heat and add butter or oil.</li>
-            <li>Pour the egg mixture into the skillet.</li>
-            <li>Gently stir with a spatula, pushing the eggs from the edges to the center.</li>
-            <li>Cook until the eggs are just set but still slightly runny.</li>
-            <li>Remove from heat and serve immediately.</li>
-        </ol>
-    </p>
-    <h2>Enjoy your scrambled eggs!</h2>
+        <div class="inner_content">
+            <!-- Image of the Recipe-->
+            <p>
+                <img class="image" src="../images/scrambled_eggs.jpg" alt="Scrambled Eggs" style="width:300px;height:auto;">
+            </p>
+            
+            <!--Short description of the Recipe-->
+            <h2>Description</h2>
+            <p class="container_text">
+                Learn how to make delicious scrambled eggs with this simple recipe.
+            </p>
+
+            <!--Ingredients List-->
+            <p>
+                <h2>Ingredients</h2>
+                <div class="container_list">
+                    <ul>
+                        <li>2 eggs</li>
+                        <li>Salt to taste</li>
+                        <li>Butter or oil for cooking</li>
+                        <li>Optional: milk or cream for creamier texture</li>
+                    </ul>
+                </div>
+            </p>
+            
+            <!--Recipe Instructions-->
+            <p>
+                <h2>Steps</h2>
+                <div class="container_list">
+                    <ol>
+                        <li>Crack the eggs into a bowl.</li>
+                        <li>Add a pinch of salt and whisk until well combined.</li>
+                        <li>Heat a non-stick skillet over medium heat and add butter or oil.</li>
+                        <li>Pour the egg mixture into the skillet.</li>
+                        <li>Gently stir with a spatula, pushing the eggs from the edges to the center.</li>
+                        <li>Cook until the eggs are just set but still slightly runny.</li>
+                        <li>Remove from heat and serve immediately.</li>
+                    </ol>
+                </div>
+            </p>
+            <p>
+                <h2 class="end_text">Enjoy your scrambled eggs!</h2>
+            </p>
+            <!-- Navigation link to go back to the recipes index -->
+            <a class="back" href="../index.html">← Back to Recipes</a>
+        </div>
+    </div>
 </body>
 </html>
