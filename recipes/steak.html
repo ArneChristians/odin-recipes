@@ -3,44 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Steak Recipe</h1>
-    <!-- Navigation link to go back to the recipes index -->
-    <a href="../index.html">← Back to Recipes</a>
-    <!--Image of the Recipe-->
-    <p>
-        <img src="../images/steak.jpg" alt="Steak" style="width:300px;height:auto;">
-    </p>
-    <!--Short description of the Recipe-->
-    <p>
-        <h2>Description</h2>
-        Learn how to cook a perfect steak with this simple recipe.
-    </p>
-    <!--Ingredients List-->
-    <p>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>1 steak (your choice of cut)</li>
-            <li>Salt and pepper to taste</li>
-            <li>Olive oil or butter for cooking</li>
-            <li>Optional: garlic and herbs for flavor</li>
-        </ul>
-    </p>
-    <!--Recipe Instructions-->
-    <p>
-        <h2>Steps</h2>
-        <ol>
-            <li>Take the steak out of the fridge and let it come to room temperature for about 30 minutes.</li>
-            <li>Season both sides of the steak generously with salt and pepper.</li>
-            <li>Heat a skillet or grill over high heat and add olive oil or butter.</li>
-            <li>Once the oil is hot, place the steak in the skillet or on the grill.</li>
-            <li>Cook for about 3-4 minutes on each side for medium-rare, adjusting time based on thickness and desired doneness.</li>
-            <li>If using, add garlic and herbs during the last minute of cooking for extra flavor.</li>
-            <li>Remove the steak from heat and let it rest for 5 minutes before slicing.</li>
-        </ol>
-    </p>
-    <h2>Enjoy your perfectly cooked steak!</h2>
+    <div class="container">
+        <div id="header">
+            <h1>Steak Recipe</h1>
+        </div>
+
+        <!-- Navigation link to go back to the recipes index -->
+        <a class="back_arrow" href="../index.html">←</a>
+
+        <div class="inner_content">
+            <!-- Image of the Recipe-->
+            <p>
+                <img class="image" src="../images/steak.jpg" alt="Steak" style="width:300px;height:auto;">
+            </p>
+            
+            <!--Short description of the Recipe-->
+            <h2>Description</h2>
+            <p class="container_text">
+                Learn how to cook a perfect steak with this simple recipe.
+            </p>
+
+            <!--Ingredients List-->
+            <p>
+                <h2>Ingredients</h2>
+                <div class="container_list">
+                    <ul>
+                        <li>1 steak (your choice of cut)</li>
+                        <li>Salt and pepper to taste</li>
+                        <li>Olive oil or butter for cooking</li>
+                        <li>Optional: garlic and herbs for flavor</li>
+                    </ul>
+                </div>
+            </p>
+            
+            <!--Recipe Instructions-->
+            <p>
+                <h2>Steps</h2>
+                <div class="container_list">
+                    <ol>
+                        <li>Take the steak out of the fridge and let it come to room temperature for about 30 minutes.</li>
+                        <li>Season both sides of the steak generously with salt and pepper.</li>
+                        <li>Heat a skillet or grill over high heat and add olive oil or butter.</li>
+                        <li>Once the oil is hot, place the steak in the skillet or on the grill.</li>
+                        <li>Cook for about 3-4 minutes on each side for medium-rare, adjusting time based on thickness and desired doneness.</li>
+                        <li>If using, add garlic and herbs during the last minute of cooking for extra flavor.</li>
+                        <li>Remove the steak from heat and let it rest for 5 minutes before slicing.</li>
+                        <li>Slice against the grain and serve.</li>
+                    </ol>
+                </div>
+            </p>
+            <p>
+                <h2 class="end_text">Enjoy your delicious steak!</h2>
+            </p>
+            <!-- Navigation link to go back to the recipes index -->
+            <a class="back" href="../index.html">← Back to Recipes</a>
+        </div>
+    </div>
 </body>
 </html>
